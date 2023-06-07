@@ -55,3 +55,146 @@
 [01-Jun-2023 18:24:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_pdo_mysql.dll (Le module spécifié est introuvable.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_pdo_mysql.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
 [01-Jun-2023 18:24:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_fileinfo.dll (Le module spécifié est introuvable.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_fileinfo.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
 [01-Jun-2023 18:24:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_intl.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_intl.dll (Le module spécifié est introuvable.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_intl.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[02-Jun-2023 15:26:02 UTC] Sync process for Gutenberg Blocks has started.
+[02-Jun-2023 15:26:02 UTC] CATEGORY:Importing categories..
+[02-Jun-2023 15:26:02 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[02-Jun-2023 15:26:02 UTC] CATEGORY:Completed category import.
+[02-Jun-2023 15:26:02 UTC] BLOCK: Getting Total Blocks
+[02-Jun-2023 15:26:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[02-Jun-2023 15:26:02 UTC] BLOCK: Requests count 4
+[02-Jun-2023 15:26:02 UTC] BLOCK: Importing request 1 ..
+[02-Jun-2023 15:26:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[02-Jun-2023 15:26:02 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[02-Jun-2023 15:26:02 UTC] BLOCK: Completed request 1
+[02-Jun-2023 15:26:02 UTC] BLOCK: Importing request 2 ..
+[02-Jun-2023 15:26:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[02-Jun-2023 15:26:02 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[02-Jun-2023 15:26:02 UTC] BLOCK: Completed request 2
+[02-Jun-2023 15:26:02 UTC] BLOCK: Importing request 3 ..
+[02-Jun-2023 15:26:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[02-Jun-2023 15:26:03 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[02-Jun-2023 15:26:03 UTC] BLOCK: Completed request 3
+[02-Jun-2023 15:26:03 UTC] BLOCK: Importing request 4 ..
+[02-Jun-2023 15:26:03 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[02-Jun-2023 15:26:03 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[02-Jun-2023 15:26:03 UTC] BLOCK: Completed request 4
+[02-Jun-2023 15:26:03 UTC] SITE: Getting Total Sites
+[02-Jun-2023 15:26:03 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[02-Jun-2023 15:26:03 UTC] SITE: Request count 2
+[02-Jun-2023 15:26:03 UTC] SITE: Importing request 1 ..
+[02-Jun-2023 15:26:03 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[02-Jun-2023 15:26:03 UTC] SITE: Storing in option ast-block-templates-sites-1
+[02-Jun-2023 15:26:03 UTC] SITE: Completed request 1
+[02-Jun-2023 15:26:03 UTC] SITE: Importing request 2 ..
+[02-Jun-2023 15:26:03 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[02-Jun-2023 15:26:03 UTC] SITE: Storing in option ast-block-templates-sites-2
+[02-Jun-2023 15:26:03 UTC] SITE: Completed request 2
+[02-Jun-2023 15:26:03 UTC] Sync process for Gutenberg Blocks is done.
+[05-Jun-2023 12:27:31 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public/wp-content/themes/tbr-totem/css/theme.css in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php on line 201
+[05-Jun-2023 12:27:31 UTC] PHP Stack trace:
+[05-Jun-2023 12:27:31 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[05-Jun-2023 12:27:31 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[05-Jun-2023 12:27:31 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[05-Jun-2023 12:27:31 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[05-Jun-2023 12:27:31 UTC] PHP   5. beans_load_document() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\page.php:13
+[05-Jun-2023 12:27:31 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:40
+[05-Jun-2023 12:27:31 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:31 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:31 UTC] PHP   9. beans_header_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:31 UTC] PHP  10. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:21
+[05-Jun-2023 12:27:31 UTC] PHP  11. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:48
+[05-Jun-2023 12:27:31 UTC] PHP  12. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[05-Jun-2023 12:27:31 UTC] PHP  13. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[05-Jun-2023 12:27:31 UTC] PHP  14. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\header.php:14
+[05-Jun-2023 12:27:31 UTC] PHP  15. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[05-Jun-2023 12:27:31 UTC] PHP  16. wp_head() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header.php:27
+[05-Jun-2023 12:27:31 UTC] PHP  17. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:3049
+[05-Jun-2023 12:27:31 UTC] PHP  18. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:31 UTC] PHP  19. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:31 UTC] PHP  20. wp_enqueue_scripts() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:31 UTC] PHP  21. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\script-loader.php:2194
+[05-Jun-2023 12:27:31 UTC] PHP  22. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:31 UTC] PHP  23. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:31 UTC] PHP  24. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:31 UTC] PHP  25. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php:201
+[05-Jun-2023 12:27:33 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public/wp-content/themes/tbr-totem/css/theme.css in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php on line 201
+[05-Jun-2023 12:27:33 UTC] PHP Stack trace:
+[05-Jun-2023 12:27:33 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[05-Jun-2023 12:27:33 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[05-Jun-2023 12:27:33 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[05-Jun-2023 12:27:33 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[05-Jun-2023 12:27:33 UTC] PHP   5. beans_load_document() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\404.php:13
+[05-Jun-2023 12:27:33 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:40
+[05-Jun-2023 12:27:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:33 UTC] PHP   9. beans_header_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:33 UTC] PHP  10. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:21
+[05-Jun-2023 12:27:33 UTC] PHP  11. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:48
+[05-Jun-2023 12:27:33 UTC] PHP  12. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[05-Jun-2023 12:27:33 UTC] PHP  13. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[05-Jun-2023 12:27:33 UTC] PHP  14. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\header.php:14
+[05-Jun-2023 12:27:33 UTC] PHP  15. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[05-Jun-2023 12:27:33 UTC] PHP  16. wp_head() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header.php:27
+[05-Jun-2023 12:27:33 UTC] PHP  17. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:3049
+[05-Jun-2023 12:27:33 UTC] PHP  18. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:33 UTC] PHP  19. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:33 UTC] PHP  20. wp_enqueue_scripts() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:33 UTC] PHP  21. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\script-loader.php:2194
+[05-Jun-2023 12:27:33 UTC] PHP  22. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:27:33 UTC] PHP  23. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:27:33 UTC] PHP  24. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:27:33 UTC] PHP  25. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php:201
+[05-Jun-2023 12:31:42 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public/wp-content/themes/tbr-totem/css/theme.css in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php on line 201
+[05-Jun-2023 12:31:42 UTC] PHP Stack trace:
+[05-Jun-2023 12:31:42 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[05-Jun-2023 12:31:42 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[05-Jun-2023 12:31:42 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[05-Jun-2023 12:31:42 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[05-Jun-2023 12:31:42 UTC] PHP   5. beans_load_document() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\page.php:13
+[05-Jun-2023 12:31:42 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:40
+[05-Jun-2023 12:31:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:42 UTC] PHP   9. beans_header_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:42 UTC] PHP  10. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:21
+[05-Jun-2023 12:31:42 UTC] PHP  11. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:48
+[05-Jun-2023 12:31:42 UTC] PHP  12. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[05-Jun-2023 12:31:42 UTC] PHP  13. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[05-Jun-2023 12:31:42 UTC] PHP  14. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\header.php:14
+[05-Jun-2023 12:31:42 UTC] PHP  15. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[05-Jun-2023 12:31:42 UTC] PHP  16. wp_head() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header.php:27
+[05-Jun-2023 12:31:42 UTC] PHP  17. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:3049
+[05-Jun-2023 12:31:42 UTC] PHP  18. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:42 UTC] PHP  19. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:42 UTC] PHP  20. wp_enqueue_scripts() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:42 UTC] PHP  21. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\script-loader.php:2194
+[05-Jun-2023 12:31:42 UTC] PHP  22. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:42 UTC] PHP  23. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:42 UTC] PHP  24. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:42 UTC] PHP  25. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php:201
+[05-Jun-2023 12:31:43 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public/wp-content/themes/tbr-totem/css/theme.css in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php on line 201
+[05-Jun-2023 12:31:43 UTC] PHP Stack trace:
+[05-Jun-2023 12:31:43 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[05-Jun-2023 12:31:43 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[05-Jun-2023 12:31:43 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[05-Jun-2023 12:31:43 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[05-Jun-2023 12:31:43 UTC] PHP   5. beans_load_document() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\404.php:13
+[05-Jun-2023 12:31:43 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:40
+[05-Jun-2023 12:31:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:43 UTC] PHP   9. beans_header_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:43 UTC] PHP  10. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:21
+[05-Jun-2023 12:31:43 UTC] PHP  11. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:48
+[05-Jun-2023 12:31:43 UTC] PHP  12. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[05-Jun-2023 12:31:43 UTC] PHP  13. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[05-Jun-2023 12:31:43 UTC] PHP  14. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\header.php:14
+[05-Jun-2023 12:31:43 UTC] PHP  15. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[05-Jun-2023 12:31:43 UTC] PHP  16. wp_head() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header.php:27
+[05-Jun-2023 12:31:43 UTC] PHP  17. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:3049
+[05-Jun-2023 12:31:43 UTC] PHP  18. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:43 UTC] PHP  19. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:43 UTC] PHP  20. wp_enqueue_scripts() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:43 UTC] PHP  21. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\script-loader.php:2194
+[05-Jun-2023 12:31:43 UTC] PHP  22. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[05-Jun-2023 12:31:43 UTC] PHP  23. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[05-Jun-2023 12:31:43 UTC] PHP  24. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[05-Jun-2023 12:31:43 UTC] PHP  25. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tbr-totem\functions.php:201
