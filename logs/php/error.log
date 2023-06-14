@@ -287,3 +287,17 @@
 [07-Jun-2023 10:58:23 UTC] PHP  23. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
 [07-Jun-2023 10:58:23 UTC] PHP  24. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
 [07-Jun-2023 10:58:23 UTC] PHP  25. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php:6
+[14-Jun-2023 08:51:57 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 310 and defined in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php:1112
+Stack trace:
+#0 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(1506, NULL)
+#1 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php(4715): do_action('save_post', 1506, NULL, true)
+#4 C:\Use in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1112
+[14-Jun-2023 10:05:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 310 and defined in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php:1112
+Stack trace:
+#0 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(1528, NULL)
+#1 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php(4715): do_action('save_post', 1528, NULL, true)
+#4 C:\Use in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1112

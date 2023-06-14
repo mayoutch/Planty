@@ -9,3 +9,36 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+
+h1{
+    font-style: syne;
+    font-size: 38px;
+    font-weight: 800;
+    text-align:center;
+    font-style: bold;
+    color: #3B8E46;
+    line-height: 45.6px;
+}
+
+h2{
+    font-style: syne;
+    font-size: 30px;
+    font-weight: 800;
+    text-align:center;
+    font-style: bold;
+    color: #3B8E46;  
+    line-height: 36px;
+}
+
+h3{
+    font-style: syne;
+    font-size: 30px;
+    font-weight: 700;
+    text-align:center;
+    color: #3B8E46;  
+    line-height: 36px; 
+}
+
+
