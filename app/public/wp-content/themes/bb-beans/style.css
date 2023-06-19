@@ -48,6 +48,11 @@ a {
     line-height: 24px; 
 }
 
+  /* BOUTON DU HEADER*/
+  .elementor-button{
+    color:white !important;
+  }
+
 /* == ALIGNEMENT DES TEXTES == */                    
 .centre{
 	text-align:center;
@@ -57,13 +62,13 @@ a {
     line-height: 24px; 
 }
 
-/* Texte blanc du bouton*** MAIS NE FONCTIONNE PAS*/ 
+/* BOUTONS */ 
 .button{
 	text-align:center;
 	font-size: 15px;
-    font-weight: 400;
-    color: white;  
-    line-height: 37px; 
+  font-weight: 400;
+  color: white;  
+  line-height: 37px; 
 }
 
 /* =========================================== FORMULAIRES =============================================================== */
@@ -71,7 +76,6 @@ a {
 .wpcf7-form-control {
 	width:383px;
 	height:71px;
-	padding:20px;
 	margin-top:10px;
 	border:none;
 	border-radius:7px;
@@ -84,16 +88,20 @@ a {
 /* == TEXTE A L INTERIEUR DES BOUTONS DES FORMULAIRES == */ 
 .has-spinner{
 	font-size: 20px;
-    font-weight: 400;
-    color: white;  
-    line-height: 24px; 
+  font-weight: 400;
+  color: white;  
+  line-height: 24px; 
 	background-color: #E0B9B4;
 }
 
+/* == AFIN DE VRAIMENT CENTRER LES BOUTONS * ON ENLEVE LE "LOADER" == */ 
+.wpcf7-spinner {
+  display: none;
+}
+
 /* ============================= FORMULAIRE DE CONTACT =================================== */
-/* == STYLE DU TEXTE DES CHAMPS A REMPLIR ==*/ 
+/* == STYLE DU TEXTE DES TITRES DES CHAMPS A REMPLIR ==*/ 
 .formulaire{
-	text-align:left;
 	font-size: 20px;
     font-weight: 400;
     color: black;  
@@ -105,7 +113,7 @@ a {
 }
 /* == ALIGNEMENT DU BOUTON "NOUS CONTACTER" == */
 #wpcf7-f1551-p11-o1 .wpcf7-form p:nth-child(5){
-    text-align: center;
+    text-align: center !important;
 }
 
 /* =========================== FORMULAIRE COMMANDER ===================================== */
@@ -113,10 +121,9 @@ a {
 #wpcf7-f1760-p13-o1 .wpcf7-form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin:auto; /*Permet de centrer le formulaire*/
     column-gap:70px;
-    width:50%;
 }
+
 /* == STYLE DES TITRES ==*/
 .titres-2colonnes{
     font-family: syne;
@@ -138,17 +145,9 @@ a {
     grid-column-end: 3;    /* l’élément s’arrête à la fin de la colonne 2 */
     text-align: center;
 }
-
-/* == RESPONSIVE DU FORMULAIRE "COMMANDER" == */
-@media screen and (max-width:600px) {
-    #wpcf7-f1760-p13-o1 .wpcf7-form {
-      grid-template-columns: 1fr;    /* la grille ne comporte plus qu’une colonne */
-    }
-  }
-
   /* =========================================== FIN DES FORMULAIRES =============================================================== */
 
-  /* text boutons commander*/
-  .elementor-button-text{
-    color: white;
+/* BOUTON "OK" DE LA PAGE COMMANDER*/
+   .elementor-button-text{
+    color: white !important;
   }
