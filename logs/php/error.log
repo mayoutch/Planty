@@ -301,3 +301,185 @@ Stack trace:
 #2 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
 #3 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php(4715): do_action('save_post', 1528, NULL, true)
 #4 C:\Use in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1112
+[18-Jun-2023 10:50:42 UTC] PHP Warning:  Creating default object from empty value in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php on line 4590
+[18-Jun-2023 10:50:42 UTC] PHP Stack trace:
+[18-Jun-2023 10:50:42 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-admin\admin-ajax.php:0
+[18-Jun-2023 10:50:42 UTC] PHP   2. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-admin\admin-ajax.php:188
+[18-Jun-2023 10:50:42 UTC] PHP   3. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[18-Jun-2023 10:50:42 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[18-Jun-2023 10:50:42 UTC] PHP   5. Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[18-Jun-2023 10:50:42 UTC] PHP   6. call_user_func:{C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:175}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:175
+[18-Jun-2023 10:50:42 UTC] PHP   7. Elementor\Core\Documents_Manager->ajax_save() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:175
+[18-Jun-2023 10:50:42 UTC] PHP   8. Elementor\Core\DocumentTypes\Page->save() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\documents-manager.php:545
+[18-Jun-2023 10:50:42 UTC] PHP   9. Elementor\Core\DocumentTypes\Page->save_elements() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:753
+[18-Jun-2023 10:50:42 UTC] PHP  10. Elementor\DB->save_plain_text() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:1272
+[18-Jun-2023 10:50:42 UTC] PHP  11. wp_update_post() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\db.php:235
+[18-Jun-2023 10:50:42 UTC] PHP  12. wp_insert_post() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php:4817
+[18-Jun-2023 10:50:42 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 310 and defined in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php:1112
+Stack trace:
+#0 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(1861, Object(stdClass))
+#1 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\post.php(4715): do_action('save_post', in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1112
+[20-Jun-2023 16:10:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '{' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 11
+[20-Jun-2023 16:10:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '{' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 11
+[20-Jun-2023 16:13:38 UTC] PHP Parse error:  syntax error, unexpected 'wp_redirect' (T_STRING), expecting ';' or ',' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 16:18:14 UTC] PHP Parse error:  syntax error, unexpected 'wp_redirect' (T_STRING), expecting ';' or ',' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 17:53:02 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 15
+[20-Jun-2023 17:54:55 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 15
+[20-Jun-2023 17:55:32 UTC] PHP Parse error:  syntax error, unexpected 'Admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 18:03:31 UTC] PHP Parse error:  syntax error, unexpected 'Admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 18:04:00 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 18:05:24 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 18:16:29 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 12
+[20-Jun-2023 18:57:05 UTC] PHP Parse error:  syntax error, unexpected 'Admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 12
+[20-Jun-2023 18:57:12 UTC] PHP Parse error:  syntax error, unexpected 'Admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 12
+[20-Jun-2023 18:57:17 UTC] PHP Parse error:  syntax error, unexpected 'Admin' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 12
+[20-Jun-2023 19:05:57 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:06:20 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:07:17 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:07:17 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:09:18 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:09:18 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 13
+[20-Jun-2023 19:10:06 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 19:11:42 UTC] PHP Parse error:  syntax error, unexpected 'css' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 19:11:49 UTC] PHP Parse error:  syntax error, unexpected 'css' (T_STRING) in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 14
+[20-Jun-2023 19:26:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ajout_lien-admin' not found or invalid function name in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[20-Jun-2023 19:26:41 UTC] PHP Stack trace:
+[20-Jun-2023 19:26:41 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[20-Jun-2023 19:26:41 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[20-Jun-2023 19:26:42 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[20-Jun-2023 19:26:42 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[20-Jun-2023 19:26:42 UTC] PHP   5. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[20-Jun-2023 19:26:42 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:38
+[20-Jun-2023 19:26:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP   9. HFE\Themes\HFE_Default_Compat->override_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:310
+[20-Jun-2023 19:26:42 UTC] PHP  10. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php:57
+[20-Jun-2023 19:26:42 UTC] PHP  11. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php:23
+[20-Jun-2023 19:26:42 UTC] PHP  12. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  14. hfe_render_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  15. Header_Footer_Elementor::get_header_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php:88
+[20-Jun-2023 19:26:42 UTC] PHP  16. Elementor\Frontend->get_builder_content_for_display() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:510
+[20-Jun-2023 19:26:42 UTC] PHP  17. Elementor\Frontend->get_builder_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\frontend.php:1247
+[20-Jun-2023 19:26:42 UTC] PHP  18. Elementor\Core\DocumentTypes\Post->print_elements_with_wrapper() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\frontend.php:1179
+[20-Jun-2023 19:26:42 UTC] PHP  19. Elementor\Core\DocumentTypes\Post->print_elements() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:1106
+[20-Jun-2023 19:26:42 UTC] PHP  20. Elementor\Element_Section->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:1711
+[20-Jun-2023 19:26:42 UTC] PHP  21. Elementor\Element_Section->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  22. Elementor\Element_Column->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:1354
+[20-Jun-2023 19:26:42 UTC] PHP  23. Elementor\Element_Column->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  24. HFE\WidgetsManager\Widgets\Navigation_Menu->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:1354
+[20-Jun-2023 19:26:42 UTC] PHP  25. HFE\WidgetsManager\Widgets\Navigation_Menu->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  26. HFE\WidgetsManager\Widgets\Navigation_Menu->render_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:750
+[20-Jun-2023 19:26:42 UTC] PHP  27. HFE\WidgetsManager\Widgets\Navigation_Menu->render_by_mode() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:609
+[20-Jun-2023 19:26:42 UTC] PHP  28. HFE\WidgetsManager\Widgets\Navigation_Menu->render() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:2268
+[20-Jun-2023 19:26:42 UTC] PHP  29. wp_nav_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php:1934
+[20-Jun-2023 19:26:42 UTC] PHP  30. apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\nav-menu-template.php:267
+[20-Jun-2023 19:26:42 UTC] PHP  31. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:205
+[20-Jun-2023 19:26:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ajout_lien-admin' not found or invalid function name in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[20-Jun-2023 19:26:42 UTC] PHP Stack trace:
+[20-Jun-2023 19:26:42 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[20-Jun-2023 19:26:42 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[20-Jun-2023 19:26:42 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[20-Jun-2023 19:26:42 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[20-Jun-2023 19:26:42 UTC] PHP   5. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[20-Jun-2023 19:26:42 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:38
+[20-Jun-2023 19:26:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP   9. HFE\Themes\HFE_Default_Compat->override_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:310
+[20-Jun-2023 19:26:42 UTC] PHP  10. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php:57
+[20-Jun-2023 19:26:42 UTC] PHP  11. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php:23
+[20-Jun-2023 19:26:42 UTC] PHP  12. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  14. hfe_render_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  15. Header_Footer_Elementor::get_header_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php:88
+[20-Jun-2023 19:26:42 UTC] PHP  16. Elementor\Frontend->get_builder_content_for_display() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:510
+[20-Jun-2023 19:26:42 UTC] PHP  17. Elementor\Frontend->get_builder_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\frontend.php:1247
+[20-Jun-2023 19:26:42 UTC] PHP  18. Elementor\Core\DocumentTypes\Post->print_elements_with_wrapper() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\frontend.php:1179
+[20-Jun-2023 19:26:42 UTC] PHP  19. Elementor\Core\DocumentTypes\Post->print_elements() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:1106
+[20-Jun-2023 19:26:42 UTC] PHP  20. Elementor\Element_Section->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\core\base\document.php:1711
+[20-Jun-2023 19:26:42 UTC] PHP  21. Elementor\Element_Section->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  22. Elementor\Element_Column->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:1354
+[20-Jun-2023 19:26:42 UTC] PHP  23. Elementor\Element_Column->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  24. HFE\WidgetsManager\Widgets\Navigation_Menu->print_element() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:1354
+[20-Jun-2023 19:26:42 UTC] PHP  25. HFE\WidgetsManager\Widgets\Navigation_Menu->print_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php:449
+[20-Jun-2023 19:26:42 UTC] PHP  26. HFE\WidgetsManager\Widgets\Navigation_Menu->render_content() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:750
+[20-Jun-2023 19:26:42 UTC] PHP  27. HFE\WidgetsManager\Widgets\Navigation_Menu->render_by_mode() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:609
+[20-Jun-2023 19:26:42 UTC] PHP  28. HFE\WidgetsManager\Widgets\Navigation_Menu->render() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:2268
+[20-Jun-2023 19:26:42 UTC] PHP  29. wp_nav_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php:1934
+[20-Jun-2023 19:26:42 UTC] PHP  30. apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\nav-menu-template.php:267
+[20-Jun-2023 19:26:42 UTC] PHP  31. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:205
+[20-Jun-2023 19:26:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ajout_lien-admin' not found or invalid function name in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[20-Jun-2023 19:26:42 UTC] PHP Stack trace:
+[20-Jun-2023 19:26:42 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[20-Jun-2023 19:26:42 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[20-Jun-2023 19:26:42 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[20-Jun-2023 19:26:42 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[20-Jun-2023 19:26:42 UTC] PHP   5. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[20-Jun-2023 19:26:42 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:38
+[20-Jun-2023 19:26:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP   9. HFE\Themes\HFE_Default_Compat->override_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:310
+[20-Jun-2023 19:26:42 UTC] PHP  10. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php:63
+[20-Jun-2023 19:26:42 UTC] PHP  11. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[20-Jun-2023 19:26:42 UTC] PHP  12. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[20-Jun-2023 19:26:42 UTC] PHP  13. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\header.php:14
+[20-Jun-2023 19:26:42 UTC] PHP  14. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[20-Jun-2023 19:26:42 UTC] PHP  15. beans_open_markup_e() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header.php:42
+[20-Jun-2023 19:26:42 UTC] PHP  16. beans_open_markup() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:167
+[20-Jun-2023 19:26:42 UTC] PHP  17. _beans_render_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:142
+[20-Jun-2023 19:26:42 UTC] PHP  18. _beans_when_has_action_do_render() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:675
+[20-Jun-2023 19:26:42 UTC] PHP  19. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:737
+[20-Jun-2023 19:26:42 UTC] PHP  20. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  21. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  22. beans_header_partial_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  23. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:39
+[20-Jun-2023 19:26:42 UTC] PHP  24. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\header-partial.php:28
+[20-Jun-2023 19:26:42 UTC] PHP  25. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  26. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  27. beans_primary_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  28. wp_nav_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\fragments\menu.php:56
+[20-Jun-2023 19:26:42 UTC] PHP  29. apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\nav-menu-template.php:267
+[20-Jun-2023 19:26:42 UTC] PHP  30. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:205
+[20-Jun-2023 19:26:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ajout_lien-admin' not found or invalid function name in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[20-Jun-2023 19:26:42 UTC] PHP Stack trace:
+[20-Jun-2023 19:26:42 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[20-Jun-2023 19:26:42 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[20-Jun-2023 19:26:42 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[20-Jun-2023 19:26:42 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[20-Jun-2023 19:26:42 UTC] PHP   5. get_footer() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:30
+[20-Jun-2023 19:26:42 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:82
+[20-Jun-2023 19:26:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP   9. HFE\Themes\HFE_Default_Compat->override_footer() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:310
+[20-Jun-2023 19:26:42 UTC] PHP  10. locate_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php:81
+[20-Jun-2023 19:26:42 UTC] PHP  11. load_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:718
+[20-Jun-2023 19:26:42 UTC] PHP  12. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template.php:783
+[20-Jun-2023 19:26:42 UTC] PHP  13. beans_load_default_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\footer.php:14
+[20-Jun-2023 19:26:42 UTC] PHP  14. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\template\functions.php:73
+[20-Jun-2023 19:26:42 UTC] PHP  15. beans_close_markup_e() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\footer.php:20
+[20-Jun-2023 19:26:42 UTC] PHP  16. beans_close_markup() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:288
+[20-Jun-2023 19:26:42 UTC] PHP  17. _beans_render_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:268
+[20-Jun-2023 19:26:42 UTC] PHP  18. _beans_when_has_action_do_render() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:675
+[20-Jun-2023 19:26:42 UTC] PHP  19. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:737
+[20-Jun-2023 19:26:42 UTC] PHP  20. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  21. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  22. beans_widget_area_offcanvas_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  23. beans_get_widget_area_output() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\fragments\widget-area.php:48
+[20-Jun-2023 19:26:42 UTC] PHP  24. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\widget\functions.php:160
+[20-Jun-2023 19:26:42 UTC] PHP  25. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  26. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  27. beans_widget_area_template() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  28. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\render\template-parts.php:161
+[20-Jun-2023 19:26:42 UTC] PHP  29. beans_open_markup_e() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\structure\widget-area.php:37
+[20-Jun-2023 19:26:42 UTC] PHP  30. beans_open_markup() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:167
+[20-Jun-2023 19:26:42 UTC] PHP  31. _beans_render_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\html\functions.php:142
+[20-Jun-2023 19:26:42 UTC] PHP  32. _beans_when_has_action_do_render() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:710
+[20-Jun-2023 19:26:42 UTC] PHP  33. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\api\actions\functions.php:737
+[20-Jun-2023 19:26:42 UTC] PHP  34. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[20-Jun-2023 19:26:42 UTC] PHP  35. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[20-Jun-2023 19:26:42 UTC] PHP  36. beans_primary_offcanvas_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[20-Jun-2023 19:26:42 UTC] PHP  37. wp_nav_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\fragments\menu.php:143
+[20-Jun-2023 19:26:42 UTC] PHP  38. apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\nav-menu-template.php:267
+[20-Jun-2023 19:26:42 UTC] PHP  39. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:205

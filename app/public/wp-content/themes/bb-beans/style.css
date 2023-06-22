@@ -21,6 +21,11 @@ h1{
     font-style: bold;
     line-height: 45.6px;
 }
+@media only screen and (max-width: 500px) {
+  h1 {
+  font-size: 24px !important;
+  }
+}
 
 h2{
     font-family: syne;
@@ -48,18 +53,13 @@ a {
     line-height: 24px; 
 }
 
-  /* BOUTON DU HEADER*/
-  .elementor-button{
-    color:white !important;
-  }
-
 /* == ALIGNEMENT DES TEXTES == */                    
 .centre{
 	text-align:center;
 	font-size: 20px;
-    font-weight: 400;
-    color: black;  
-    line-height: 24px; 
+  font-weight: 400;
+  color: black;  
+  line-height: 24px; 
 }
 
 /* BOUTONS */ 
@@ -72,6 +72,20 @@ a {
 }
 
 /* =========================================== FORMULAIRES =============================================================== */
+@media screen and (max-width: 560px){
+  .wpcf7-form-control{
+  width: 250px !important;
+  padding-left: 20px;
+  }
+}
+@media screen and (max-width: 560px){
+  .form-contact{ /* == Crea d'une classe dans Elementor pour réduire le layout du formulaire contact en responsive==*/
+  width: 310px;
+  margin:auto;
+  padding: 0px;
+}
+}
+
 /* == CHAMPS DES FORMULAIRES ==*/ 
 .wpcf7-form-control {
 	width:383px;
@@ -151,3 +165,38 @@ a {
    .elementor-button-text{
     color: white !important;
   }
+
+  /* == HEADER MENU & HOOK*/
+ 
+  /* menu */
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+
+  /* bouton commander du menu - header*/
+  #menu-1-b54d2a1 > li:nth-child(2) > a:nth-child(1)
+  {
+    color: white !important;
+    background-color: #E0B9B4 !important;
+    padding-right: 40px;
+    padding-left: 40px;
+    order:3 !important;
+  }
+
+/* == ADMIN - HOOK== */
+  #menu-1-b54d2a1 > li:nth-child(3) > a:nth-child(1){
+    order:2 !important;
+  }
+  .css-admin{  
+    font-family: syne;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;  
+    line-height: 19.2px; 
+    padding: 20px; 
+    box-sizing: border-box;
+  }
+ 
+ 
+ 
