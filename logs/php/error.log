@@ -483,3 +483,25 @@ Stack trace:
 [20-Jun-2023 19:26:42 UTC] PHP  37. wp_nav_menu() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\tm-beans\lib\templates\fragments\menu.php:143
 [20-Jun-2023 19:26:42 UTC] PHP  38. apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\nav-menu-template.php:267
 [20-Jun-2023 19:26:42 UTC] PHP  39. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:205
+[22-Jun-2023 09:08:15 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public/wp-content/themes/bb-beans/css/theme.css in C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php on line 6
+[22-Jun-2023 09:08:15 UTC] PHP Stack trace:
+[22-Jun-2023 09:08:15 UTC] PHP   1. {main}() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:0
+[22-Jun-2023 09:08:15 UTC] PHP   2. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\index.php:17
+[22-Jun-2023 09:08:15 UTC] PHP   3. require_once() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-blog-header.php:19
+[22-Jun-2023 09:08:15 UTC] PHP   4. include() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\template-loader.php:106
+[22-Jun-2023 09:08:15 UTC] PHP   5. get_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[22-Jun-2023 09:08:15 UTC] PHP   6. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:38
+[22-Jun-2023 09:08:15 UTC] PHP   7. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[22-Jun-2023 09:08:15 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[22-Jun-2023 09:08:15 UTC] PHP   9. HFE\Themes\HFE_Default_Compat->override_header() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:310
+[22-Jun-2023 09:08:15 UTC] PHP  10. require() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php:57
+[22-Jun-2023 09:08:15 UTC] PHP  11. wp_head() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php:16
+[22-Jun-2023 09:08:15 UTC] PHP  12. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\general-template.php:3049
+[22-Jun-2023 09:08:15 UTC] PHP  13. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[22-Jun-2023 09:08:15 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[22-Jun-2023 09:08:15 UTC] PHP  15. wp_enqueue_scripts() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[22-Jun-2023 09:08:15 UTC] PHP  16. do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\script-loader.php:2194
+[22-Jun-2023 09:08:15 UTC] PHP  17. WP_Hook->do_action() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\plugin.php:517
+[22-Jun-2023 09:08:15 UTC] PHP  18. WP_Hook->apply_filters() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:332
+[22-Jun-2023 09:08:15 UTC] PHP  19. theme_enqueue_styles() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-includes\class-wp-hook.php:308
+[22-Jun-2023 09:08:15 UTC] PHP  20. filemtime() C:\Users\lefeb\Documents\Sites Wordpress en local\planty\app\public\wp-content\themes\bb-beans\functions.php:6
