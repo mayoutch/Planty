@@ -12,13 +12,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
-
+/* == TITRES == */
 h1{
-    font-family: syne;
-    font-size: 38px;
-    font-weight: 800;
-    text-align:center;
-    line-height: 45.6px;
+  font-family: syne;
+  font-size: 38px;
+  font-weight: 800;
+  text-align:center;
+  line-height: 45.6px;
 }
 @media only screen and (max-width: 500px) {
   h1 {
@@ -27,28 +27,28 @@ h1{
 }
 
 h2{
-    font-family: syne;
-    font-size: 30px;
-    font-weight: 800;
-    text-align:center;
-    line-height: 36px;
+  font-family: syne;
+  font-size: 30px;
+  font-weight: 800;
+  text-align:center;
+  line-height: 36px;
 }
 
 h3{
-    font-family: syne;
-    font-size: 30px;
-    font-weight: 700; 
-    line-height: 36px; 
-    color: #3B8E46;
+  font-family: syne;
+  font-size: 30px;
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #3B8E46;
 }
 
 /* == MENTIONS LEGALES == */
 a {
-    text-decoration: none; 
-    color: black !important; /*Le lien ne doit pas être en bleu mais en noir */
-    font-size: 20px;
-    font-weight: 400; 
-    line-height: 24px; 
+  text-decoration: none; 
+  color: black !important; /*Le lien ne doit pas être en bleu mais en noir */
+  font-size: 20px;
+  font-weight: 400; 
+  line-height: 24px; 
 }
 
 /* == ALIGNEMENT DES TEXTES == */                    
@@ -69,9 +69,9 @@ a {
   line-height: 37px; 
 }
 
-/* =========================================== FORMULAIRES =============================================================== */
+/* ===========================================    FORMULAIRES    =============================================================== */
 
-
+/* ===============================    GENERAL     ==================*/
 /* == CHAMPS DES FORMULAIRES ==*/ 
 .wpcf7-form-control {
 	width:383px;
@@ -93,13 +93,13 @@ a {
   line-height: 24px; 
 	background-color: #E0B9B4;
 }
-
-/* == AFIN DE VRAIMENT CENTRER LES BOUTONS * ON ENLEVE LE "LOADER" == */ 
+/* == ON ENLEVE LE "LOADER" AFIN DE VRAIMENT CENTRER LES BOUTONS == */ 
 .wpcf7-spinner {
   display: none;
 }
 
-/* ============================= FORMULAIRE DE CONTACT =================================== */
+/* =====================      FORMULAIRE DE CONTACT DE LA PAGE "NOUS RENCONTRER"    ===================== */
+
 /* == STYLE DU TEXTE DES TITRES DES CHAMPS A REMPLIR ==*/ 
 .formulaire{
 	font-size: 20px;
@@ -122,21 +122,22 @@ a {
   }
 }
 @media screen and (max-width: 640px){
-  .form-contact{ /* == Crea d'une classe dans Elementor pour réduire le layout du formulaire contact en responsive==*/
+  .form-contact{ /* == Création d'une classe dans Elementor pour réduire le layout du formulaire contact en responsive==*/
   width: 318px;
   }
 }
 
-/* =========================== FORMULAIRE COMMANDER ===================================== */
+/* ==============           FORMULAIRE "COMMANDER"          ======== */
+ /* ==  PREMIERE PARTIE CREEE EN HTML ET INTEGREE à CONTACT FORM 7 (Objet = ajout du nombre de canettes Planty) == */
 
- /* == PREMIERE PARTIE (pour les quantités) CREEE EN HTML ET INTEGREE à CONTACT FORM 7 == */
- .formulaire-quantites{  
+.formulaire-quantites{  
   display: flex;
   margin-bottom: 80px;
-  width: 1440px;
+  width: 860px;
+  border-bottom: 1px solid white;
  }
 
- .quantites-cards{
+.quantites-cards{
   width: 220px;
   
  }
@@ -146,7 +147,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 0px;
- 
 }
 .card-content{
   display: flex;
@@ -173,7 +173,7 @@ width: 100px;
   border-radius: 10%;
   border:none;
 }
-/*== Responsive du formulaire "Commander== */
+/*== Responsive du 1er formulaire pour l'ajout du nombre de canettes Planty== */
 @media screen and (max-width: 880px){
   h3{
     text-align: center;
@@ -188,24 +188,28 @@ width: 100px;
   }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 600px){
   h3{
     text-align: center;
   }
   .formulaire-quantites{  
+    display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
+    width: 320px;
+    justify-items: center;
+    margin:0px;
   }
 }
 
-/* == CREATION DU FORMULAIRE A DEUX COLONNES AVEC "GRID" == */
+/* =======      CREATION DU FORMULAIRE A DEUX COLONNES AVEC CONTACT FORM 7 & "GRID"      ======== */
 
 .form-2colonnes{
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap:70px;
-  justify-items: center;
 }
+
 /* == STYLE DES TITRES ==*/
 .titres-2colonnes{
   font-family: syne;
@@ -213,13 +217,12 @@ width: 100px;
   font-weight: 700; 
   line-height: 36px; 
   color: white;
-  
+ 
 }
-/* == Padding des titres ==*/
+/* == PADDING DES TITRES ==*/
 .form-2colonnes > p:nth-child(1) .form-2colonnes > p:nth-child(2){
   padding: 0px;
   margin:0px;
-  
 }
 .form-2colonnes > p:nth-child(2){
   padding: 0px;
@@ -233,37 +236,35 @@ width: 100px;
   color: white;  
   line-height: 24px; 
 }
-/* == BOUTON SUR UNE SEULE COLONNE == */
+/* == BOUTON "Envoyer" SUR UNE SEULE COLONNE == */
 #wpcf7-f1760-p2315-o1 .form-2colonnes > p:nth-child(9){
   grid-column-start: 1;  /* l’élément commence au début de la colonne 1 */
   grid-column-end: 3;    /* l’élément s’arrête à la fin de la colonne 2 */
   text-align: center !important;
 }
 
-/*Responsive du formulaire à deux colonnes */
-@media screen and (max-width: 880px){ /*largeur des contact-form en dessous de 880 px*/
+/* == RESPONSIVE DU FORMULAIRE A DEUX COLONNES == */
+@media screen and (max-width: 880px){ /*largeur des "contact-form" en dessous de 880 px*/
 
-  #wpcf7-f1760-p2315-o1 .wpcf7-form{
+#wpcf7-f1760-p2315-o1 .wpcf7-form-control{
+  width: 100%;
   }
 
-  #wpcf7-f1760-p2315-o1 .wpcf7-form-control{
-  width: 280px;
-  }
-  .form-2colonnes{ /*Pour que ce soit sur 1 colonne en dessous de 880 px */
-  grid-template-columns: 1fr;
-  padding:30px;
-  float: left;
+.form-2colonnes{ /*Pour que ce soit sur 1 colonne en dessous de 880 px */
+  grid-template-columns: 1fr!important;
+  column-gap: 0px;
+  padding-left: 20px;
+  padding-top: 30px;
+  justify-items: center;
   }
 
-  .form-2colonnes > p:nth-child(1),.form-2colonnes > p:nth-child(2),.form-2colonnes > p:nth-child(3), .form-2colonnes > p:nth-child(4),.form-2colonnes > p:nth-child(5),.form-2colonnes > p:nth-child(6),.form-2colonnes > p:nth-child(7), .form-2colonnes > p:nth-child(8), .form-2colonnes > p:nth-child(9){ 
+.form-2colonnes > p:nth-child(1),.form-2colonnes > p:nth-child(2),.form-2colonnes > p:nth-child(3), .form-2colonnes > p:nth-child(4),.form-2colonnes > p:nth-child(5),.form-2colonnes > p:nth-child(6),.form-2colonnes > p:nth-child(7), .form-2colonnes > p:nth-child(8), .form-2colonnes > p:nth-child(9){ 
   grid-column-end: 1;
   }
 
- 
- /*En spécifiant l'ordre des items du formulaire (qd revenu sur une colonne, en mode responsive) */
+ /*En spécifiant l'ordre des items du formulaire (qd sur une colonne, en mode responsive) */
  .form-2colonnes > p:nth-child(1){
   order:1;
- 
 }
 .form-2colonnes > p:nth-child(3){
   order:2;
@@ -288,43 +289,62 @@ width: 100px;
 .form-2colonnes > p:nth-child(8){
   order:8;
 }
-.form-2colonnes > p:nth-child(9){
-  order:9;
-}
+
+.form-2colonnes > p:nth-child(9){ /*forcing pour placer le boutton dans la colonne*/
+  grid-column-start: -3 !important;
+  grid-column-end: -2 !important;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  }
 
 /*réduire taille du bouton envoyer*/
 #wpcf7-f1760-p2315-o1 .has-spinner{
   width: 200px;
 }
 }
- 
+@media screen and (max-width: 1420px){
+  .border{
+    display: none;
+  }
+}
+/* ==FIN DES FORMULAIRES== */
 
+/* == Responsive de la "branche" en page "Nous rencontrer" ==*/
+@media screen and (max-width: 1325px){
+  .branche{
+  display: none;
+}
+}
+/* == Responsive de la "fleur du haut" ==*/
+@media screen and (max-width: 1200px){
+  .fleur1{
+  display: none;
+}
+}
+/* == Responsive de la "fleur du bas" ==*/
+@media screen and (max-width: 1400px){
+  .fleur2{
+  display: none;
+}
+}
 
-
-
-
-
-/*  ////Fin des formualaires/// */
-
-
-
-  /* == HEADER MENU & HOOK*/
-  /* menu */
-  nav ul{
-    display: flex;
-    align-items: center;
+/* == HEADER MENU & HOOK == */
+/* MENU */
+nav ul{
+  display: flex;
+  align-items: center;
   }
 
-  /* style du bouton commander du menu header*/
-  #menu-1-b54d2a1 > li:nth-child(2) > a:nth-child(1)
+/* STYLE DU MENU COMMANDER - BOUTON - HEADER*/
+#menu-1-b54d2a1 > li:nth-child(2) > a:nth-child(1)
   {
-    color: white !important;
-    background-color: #E0B9B4 !important;
-    padding-right: 40px;
-    padding-left: 40px;
+  color: white !important;
+  background-color: #E0B9B4 !important;
+  padding-right: 40px;
+  padding-left: 40px;
   }
 
-/*Style de la texte du hook et des liens du menu*/
+/*Style du texte du hook et des liens du menu*/
 .css-admin,#menu-1-76f4e01 > li:nth-child(1) > a:nth-child(1),#menu-1-76f4e01 > li:nth-child(2) > a:nth-child(1){  
   font-family: syne;
   font-size: 16px;
@@ -346,4 +366,10 @@ width: 100px;
   order: 3;
 }
  
-/*divers*/
+/* == FOOTER == */
+@media screen and (max-width: 1200px){
+  .mentions{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  }
